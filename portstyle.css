@@ -1,0 +1,797 @@
+*{
+    margin: 0;
+
+}
+
+.navbar {
+    height: 70px;
+    width: 1903px;
+}
+
+.homenav{
+    height: 70px;
+    width: 1903px;
+}
+
+shadow {
+    box-shadow: 100px #adb5bd;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-light-grey{
+    background-color: #cacaca;
+}
+
+.hero-banner {
+    height: 900px;
+    width: 100%;
+    background: url(Images/Mybann.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+
+.hero-banner-text {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 55%;
+    height: 700px;
+}
+
+.precontainer {
+    position: absolute;
+    top: 20%;
+    height: 130px;
+    width: 90%;
+}
+
+.pre1 {
+    width: 100%;
+    height: 60px;
+
+}
+
+.pre2 {
+    width: 100%;
+    height: 60px;
+
+}
+
+.banner-btn{
+    height: 60px;
+    width: 270px;
+    position:absolute;
+    bottom:32%;
+    left: 43%;
+}
+
+.banner-btn:hover{
+    transition: all 400ms ease-in-out;
+}
+
+.nav-link,.navbar-brand {
+    color: black;
+}
+
+.btn {
+    transition: all 400ms ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    background-color: white;
+    color: #0d6efd;
+}
+
+#AboutMe{
+    height: 1000px;
+    margin-bottom: 200px;
+
+}
+
+.AboutHeader {
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    width: max-content;
+    left: 40%;
+}
+
+.AboutHeader::after {/*modification of the header animation below */
+    content: '';
+    background-color: #0d6efd;
+    height: 4px;
+    width: 45%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    border-radius: 200px;
+}
+
+.about-container{
+    height: 900px;
+    width: 50%;
+    flex-direction: column;
+}
+
+.head-container {
+    height: auto;
+    width: 50%;
+    flex-direction: column;
+}
+
+.head {
+    width: 50%;
+    height: 50%;
+
+}
+
+.About-main {
+    flex-direction: column;
+}
+
+.about-container{
+    height: 150px;
+}
+
+.head-container{
+    height: 150px;
+}
+
+.about-content {
+    width: 80%;
+    height: 18%;
+    margin-bottom: 50px;
+
+}
+
+.about-content:nth-child(3) {
+    margin-top: -20px;
+}
+
+
+
+.myskills {
+    height: 100%;
+    width: 70%;
+}
+
+.progress {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Projects-Header {
+    height: 90%;
+    width: 50%;
+    position: relative;
+    width: max-content;
+}
+
+.Projects-Header::after {
+    content: '';
+    background-color: #0d6efd;
+    height: 4px;
+    width: 45%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    border-radius: 200px;
+}
+
+.Projects-description {
+    position: relative;
+}
+
+#ContactMe {
+    background: url(Mybann.jpg);
+    background-attachment: fixed;
+}
+
+.contact-main {
+    height: 100%;
+    width: 45%;
+    background-color: white;
+}
+
+.footer-container {
+    position: relative;
+}
+
+.footer-container{
+    height: 320px;
+}
+
+
+.footer-main {
+    height: 250px;
+    width: 65%;
+    border-bottom: 2px solid white;position: absolute;
+}
+
+.footer-content{
+    height: 60%;
+    width: 40%;
+    margin-top: 70px;
+    flex-direction: column;
+}
+
+.footer-header{
+    width: 100%;
+}
+
+.footer-icons {/*change in the flow of items */
+
+    flex-direction: row;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    transition:all 400ms ease-in-out;
+}
+  
+.fa:hover {
+      transform:translateY(-5px);
+      color: #0a66c2;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.websitesheader {
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    width: max-content;
+    left: 40%;
+}
+
+.websitesheader::after {
+    content: '';
+    background-color: #0d6efd;
+    height: 4px;
+    width: 45%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    border-radius: 200px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+    cursor: context-menu;
+}
+
+.image-container {
+    display: none; 
+    margin-top: 20px;
+}
+.image-container img {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+.thumbnail {
+    cursor: pointer;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    height: 600px;
+    width: 600px;
+}
+.close-button {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.logo-row {
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    height: 600px;
+    background: url(Images/spiral.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner-button{
+    height: 60px;
+    width: 270px;
+    position:absolute;
+    bottom:-50%;
+    left: 30%;
+}
+
+.logo-images{
+    height: 400px;
+    width: 500px;
+}
+
+.digital-artwork-thumb{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    filter: grayscale(50%);
+    transition: all 300ms ease-in;
+}
+
+.digital-artwork-thumb:hover{
+    filter: none;
+    transform: scale(1.01);
+}
+
+.digital-artwork {
+    width: 500px;
+    height: 400px;
+}
+
+.digital-artwork-row {
+    height: 1500px;
+    background: url(Images/digitalArtBack.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.thumb-reset{
+    transition: all 300ms ease-in;
+}
+
+.thumb-reset:hover{
+    transform: scale(1.05);
+}
+
+@media only screen and (min-width:1500px) {
+    *{
+        margin: 0;
+    }
+
+    .homenav{
+        width: 1905px;
+    }
+
+    .navbar{
+        width: 1905px;
+    }
+
+    .hero-banner-text {
+        position: relative;
+        height: 700px;
+        top: 25%;
+        left: 30%;
+    }
+    
+    .pre-container{
+        height: 700px;
+        background-color: #0d6efd;
+        position: relative;
+    }
+
+    .banner-button {
+        position: absolute;
+        bottom: -70%;
+        left: 28%;
+
+    }
+
+    .thumbnail {
+        width: 900px;
+        height: 600px;
+    }
+
+    .logo-row {
+        height: 600px;
+        flex-wrap: wrap;
+    }
+
+    .logo-images {
+        height: 300px;
+        width: 400px;
+
+    }
+
+    .digital-artwork-thumb {
+        width: 700px;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .digital-artwork {
+        height: 400px;
+        width: 600px;
+
+    }
+
+    .AboutHeader {
+        height: 10%;
+        width: 50%;
+        position: absolute;
+        width: max-content;
+        left: 45%;
+    }
+
+    .websitesheader {
+        height: 90%;
+        width: 50%;
+        position: absolute;
+        width: max-content;
+        left: 40%;
+    }
+    
+}
+
+@media only screen and (max-width: 1400px) {
+    
+    *{
+        margin: 0;
+    }
+
+    .homenav{
+        width: 1400px;
+    }
+
+    .navbar{
+        width: 1400px;
+    }
+
+    .hero-banner-text {
+        position: relative;
+        height: 700px;
+        top: 10%;
+        left: 30%;
+    }
+    
+    .pre-container{
+        height: 700px;
+        background-color: #0d6efd;
+        position: relative;
+    }
+
+    .banner-button {
+        position: absolute;
+        bottom: -120%;
+        left: 18%;
+
+    }
+
+    .thumbnail {
+        width: 600px;
+        height: 600px;
+    }
+
+    .logo-row {
+        height: 600px;
+        flex-wrap: wrap;
+    }
+
+    .logo-images {
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .digital-artwork-thumb {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .digital-artwork {
+        height: 300px;
+        width: 500px;
+
+    }
+
+    .AboutHeader {
+        height: 10%;
+        width: 50%;
+        position: absolute;
+        width: max-content;
+        left: 32%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    *{
+        margin: 0;
+    }
+
+    .homenav{
+        width: 1200px;
+    }
+
+    .navbar{
+        width: 1200px;
+    }
+
+    .hero-banner-text {
+        position: relative;
+        height: 700px;
+        top: 10%;
+        left: 30%;
+    }
+    
+    .pre-container{
+        height: 700px;
+        background-color: #0d6efd;
+        position: relative;
+    }
+
+    .banner-button {
+        position: absolute;
+        bottom: -120%;
+        left: 18%;
+
+    }
+
+    .thumbnail {
+        width: 500px;
+        height: 600px;
+    }
+
+    .logo-row {
+        height: 600px;
+        flex-wrap: wrap;
+    }
+
+    .logo-images {
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .digital-artwork-thumb {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .digital-artwork {
+        height: 300px;
+        width: 500px;
+
+    }
+
+    .AboutHeader {
+        height: 10%;
+        width: 50%;
+        position: absolute;
+        width: max-content;
+        left: 32%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 992px) {
+    *{
+        margin: 0;
+    }
+
+    .homenav{
+        width: 992px;
+    }
+
+    .navbar{
+        width: 992px;
+    }
+
+    .hero-banner-text {
+        position: relative;
+        height: 700px;
+        top: 10%;
+        left: 30%;
+    }
+    
+    .pre-container{
+        height: 700px;
+        background-color: #0d6efd;
+        position: relative;
+    }
+
+    .banner-button {
+        position: absolute;
+        bottom: -120%;
+        left: 18%;
+
+    }
+
+    .thumbnail {
+        width: 400px;
+        height: 500px;
+    }
+
+    .logo-row {
+        height: 600px;
+        flex-wrap: wrap;
+    }
+
+    .logo-images {
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .digital-artwork-thumb {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .digital-artwork {
+        height: 250px;
+        width: 400px;
+
+    }
+
+    .digital-artwork-row {
+        height: 1200px;
+        background: url(Images/digitalArtBack.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-bottom: 200px;
+    }
+
+    .AboutHeader {
+        height: 10%;
+        width: 50%;
+        position: absolute;
+        width: max-content;
+        left: 32%;
+    }
+
+
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    *{
+        margin: 0;
+    }
+
+    .homenav{
+        width: 768px;
+    }
+
+    .navbar{
+        width: 768px;
+    }
+
+    .hero-banner-text {
+        position: relative;
+        height: 400px;
+        top: 10%;
+        left: 30%;
+    }
+    
+    .pre-container{
+        height: 700px;
+        background-color: #0d6efd;
+        position: relative;
+    }
+
+    .pre1 {
+        width: 120%;
+        height: 60px;
+        position: absolute;
+        top: 90%;
+        font-size: 20px;
+    
+    }
+
+    .pre2 {
+        display: none;
+    
+    }
+
+    .banner-btn{
+        height: 60px;
+        width: 230px;
+        position:absolute;
+        bottom:35%;
+        left: 30%;
+    }
+
+    .thumbnail {
+        width: 400px;
+        height: 500px;
+    }
+
+    .logo-row {
+        height: 600px;
+        flex-wrap: wrap;
+    }
+
+    .logo-images {
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .digital-artwork-thumb {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .digital-artwork {
+        height: 250px;
+        width: 400px;
+
+    }
+
+    .digital-artwork-row {
+        height: 1200px;
+        background: url(Images/digitalArtBack.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-bottom: 200px;
+    }
+
+    .AboutHeader {
+        height: 10%;
+        width: 90%;
+        position: absolute;
+        width: max-content;
+        left: 32%;
+    }
+
+    #AboutMe{
+        flex-direction: column;
+        height: 2000px;
+    }
+
+    .head-container{
+        display: none;
+    }
+
+    .footer-header{
+        width: 50%;
+    }
+
+    .footer-text{
+        margin-left: 10px;
+    }
+
+    .footer-container{
+        height: 420px;
+    }
+    
+    .footer-main{
+        justify-content: center;
+        flex-direction: row;
+        height: 100%;
+    }
+}
